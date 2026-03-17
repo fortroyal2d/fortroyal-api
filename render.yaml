@@ -1,7 +1,7 @@
 Name: fortroyal-api
 Environment: Python
 Build Command:
-pip install -r requirements.txt
+pip install -r requirements
 
 Start Command:
 gunicorn server:app
